@@ -1,0 +1,64 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 40px;
+}
+
+.paragraph {
+  color: black;
+  margin-right: 10px;
+}
+
+.paragraph:hover{
+    color: bisque;
+}
+
+.paragraph:active{
+    color: red;
+}
+
+.search{
+    border-radius: 25pc;
+    padding: 0.5rem;
+    margin-left:10px;
+    width: 100%;
+    height: 30px;
+    align-self: center;
+}
+
+.search:active{
+  border-radius: 25pc;
+}
+
+.search:checked{
+  border-radius: 25pc;
+}
+
+.search:focus{
+  border-radius: 25pc;
+  outline: none;
+}
+
+.center{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+
+.input{
+  border-radius: 25;
+}
+
+
+.start{
+  display: flex;
+  flex-direction: row;
+  
+}
